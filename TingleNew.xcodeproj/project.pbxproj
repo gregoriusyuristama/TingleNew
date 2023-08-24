@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6D9F8DE2A97C08D00B2B8AF /* Tingle.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B6D9F8DD2A97C08D00B2B8AF /* Tingle.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B6D9F8E32A97C08D00B2B8AF /* TingleNewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D9F8E22A97C08D00B2B8AF /* TingleNewApp.swift */; };
+		B6D9F8E72A97C08F00B2B8AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D9F8E62A97C08F00B2B8AF /* Assets.xcassets */; };
+		B6D9F8EA2A97C08F00B2B8AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D9F8E92A97C08F00B2B8AF /* Preview Assets.xcassets */; };
+		B6D9F8F52A97C11300B2B8AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D9F8F42A97C11300B2B8AF /* ContentView.swift */; };
+		B6D9F8FA2A97C12300B2B8AF /* Gyro in Resources */ = {isa = PBXBuildFile; fileRef = B6D9F8F62A97C12300B2B8AF /* Gyro */; };
+		B6D9F8FB2A97C12300B2B8AF /* CrownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D9F8F72A97C12300B2B8AF /* CrownView.swift */; };
+		B6D9F8FC2A97C12300B2B8AF /* TapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D9F8F82A97C12300B2B8AF /* TapView.swift */; };
+		B6D9F8FD2A97C12300B2B8AF /* GyroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D9F8F92A97C12300B2B8AF /* GyroView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6D9F8DF2A97C08D00B2B8AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6D9F8D12A97C08D00B2B8AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6D9F8DC2A97C08D00B2B8AF;
+			remoteInfo = "TingleNew Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B6D9F8F02A97C08F00B2B8AF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B6D9F8DE2A97C08D00B2B8AF /* Tingle.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B6D9F8D72A97C08D00B2B8AF /* TingleNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TingleNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D9F8DD2A97C08D00B2B8AF /* Tingle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tingle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D9F8E22A97C08D00B2B8AF /* TingleNewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TingleNewApp.swift; sourceTree = "<group>"; };
+		B6D9F8E62A97C08F00B2B8AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6D9F8E92A97C08F00B2B8AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6D9F8F42A97C11300B2B8AF /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../Tingle/Tingle Watch App/ContentView.swift"; sourceTree = "<group>"; };
+		B6D9F8F62A97C12300B2B8AF /* Gyro */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Gyro; sourceTree = "<group>"; };
+		B6D9F8F72A97C12300B2B8AF /* CrownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrownView.swift; sourceTree = "<group>"; };
+		B6D9F8F82A97C12300B2B8AF /* TapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapView.swift; sourceTree = "<group>"; };
+		B6D9F8F92A97C12300B2B8AF /* GyroView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GyroView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6D9F8DA2A97C08D00B2B8AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6D9F8D02A97C08D00B2B8AF = {
+			isa = PBXGroup;
+			children = (
+				B6D9F8E12A97C08D00B2B8AF /* TingleNew Watch App */,
+				B6D9F8D82A97C08D00B2B8AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6D9F8D82A97C08D00B2B8AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6D9F8D72A97C08D00B2B8AF /* TingleNew.app */,
+				B6D9F8DD2A97C08D00B2B8AF /* Tingle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6D9F8E12A97C08D00B2B8AF /* TingleNew Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				B6D9F8E22A97C08D00B2B8AF /* TingleNewApp.swift */,
+				B6D9F8F42A97C11300B2B8AF /* ContentView.swift */,
+				B6D9F8F72A97C12300B2B8AF /* CrownView.swift */,
+				B6D9F8F62A97C12300B2B8AF /* Gyro */,
+				B6D9F8F92A97C12300B2B8AF /* GyroView.swift */,
+				B6D9F8F82A97C12300B2B8AF /* TapView.swift */,
+				B6D9F8E62A97C08F00B2B8AF /* Assets.xcassets */,
+				B6D9F8E82A97C08F00B2B8AF /* Preview Content */,
+			);
+			path = "TingleNew Watch App";
+			sourceTree = "<group>";
+		};
+		B6D9F8E82A97C08F00B2B8AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B6D9F8E92A97C08F00B2B8AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6D9F8D62A97C08D00B2B8AF /* TingleNew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D9F8F12A97C08F00B2B8AF /* Build configuration list for PBXNativeTarget "TingleNew" */;
+			buildPhases = (
+				B6D9F8D52A97C08D00B2B8AF /* Resources */,
+				B6D9F8F02A97C08F00B2B8AF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6D9F8E02A97C08D00B2B8AF /* PBXTargetDependency */,
+			);
+			name = TingleNew;
+			productName = TingleNew;
+			productReference = B6D9F8D72A97C08D00B2B8AF /* TingleNew.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		B6D9F8DC2A97C08D00B2B8AF /* TingleNew Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D9F8ED2A97C08F00B2B8AF /* Build configuration list for PBXNativeTarget "TingleNew Watch App" */;
+			buildPhases = (
+				B6D9F8D92A97C08D00B2B8AF /* Sources */,
+				B6D9F8DA2A97C08D00B2B8AF /* Frameworks */,
+				B6D9F8DB2A97C08D00B2B8AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TingleNew Watch App";
+			productName = "TingleNew Watch App";
+			productReference = B6D9F8DD2A97C08D00B2B8AF /* Tingle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6D9F8D12A97C08D00B2B8AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B6D9F8D62A97C08D00B2B8AF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					B6D9F8DC2A97C08D00B2B8AF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B6D9F8D42A97C08D00B2B8AF /* Build configuration list for PBXProject "TingleNew" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6D9F8D02A97C08D00B2B8AF;
+			productRefGroup = B6D9F8D82A97C08D00B2B8AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6D9F8D62A97C08D00B2B8AF /* TingleNew */,
+				B6D9F8DC2A97C08D00B2B8AF /* TingleNew Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6D9F8D52A97C08D00B2B8AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D9F8DB2A97C08D00B2B8AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D9F8EA2A97C08F00B2B8AF /* Preview Assets.xcassets in Resources */,
+				B6D9F8FA2A97C12300B2B8AF /* Gyro in Resources */,
+				B6D9F8E72A97C08F00B2B8AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6D9F8D92A97C08D00B2B8AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D9F8FC2A97C12300B2B8AF /* TapView.swift in Sources */,
+				B6D9F8FD2A97C12300B2B8AF /* GyroView.swift in Sources */,
+				B6D9F8E32A97C08D00B2B8AF /* TingleNewApp.swift in Sources */,
+				B6D9F8FB2A97C12300B2B8AF /* CrownView.swift in Sources */,
+				B6D9F8F52A97C11300B2B8AF /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6D9F8E02A97C08D00B2B8AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6D9F8DC2A97C08D00B2B8AF /* TingleNew Watch App */;
+			targetProxy = B6D9F8DF2A97C08D00B2B8AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B6D9F8EB2A97C08F00B2B8AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6D9F8EC2A97C08F00B2B8AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B6D9F8EE2A97C08F00B2B8AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TingleNew Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = U43A7X58YW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ada.mini3.Tingle.watchkitapp;
+				PRODUCT_NAME = Tingle;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		B6D9F8EF2A97C08F00B2B8AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TingleNew Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = U43A7X58YW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ada.mini3.Tingle.watchkitapp;
+				PRODUCT_NAME = Tingle;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		B6D9F8F22A97C08F00B2B8AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U43A7X58YW;
+				INFOPLIST_KEY_CFBundleDisplayName = TingleNew;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gregoriusyuristama.TingleNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B6D9F8F32A97C08F00B2B8AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U43A7X58YW;
+				INFOPLIST_KEY_CFBundleDisplayName = TingleNew;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gregoriusyuristama.TingleNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6D9F8D42A97C08D00B2B8AF /* Build configuration list for PBXProject "TingleNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D9F8EB2A97C08F00B2B8AF /* Debug */,
+				B6D9F8EC2A97C08F00B2B8AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D9F8ED2A97C08F00B2B8AF /* Build configuration list for PBXNativeTarget "TingleNew Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D9F8EE2A97C08F00B2B8AF /* Debug */,
+				B6D9F8EF2A97C08F00B2B8AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D9F8F12A97C08F00B2B8AF /* Build configuration list for PBXNativeTarget "TingleNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D9F8F22A97C08F00B2B8AF /* Debug */,
+				B6D9F8F32A97C08F00B2B8AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6D9F8D12A97C08D00B2B8AF /* Project object */;
+}

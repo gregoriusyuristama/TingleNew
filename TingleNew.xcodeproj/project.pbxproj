@@ -12,10 +12,10 @@
 		B6D9F8E72A97C08F00B2B8AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D9F8E62A97C08F00B2B8AF /* Assets.xcassets */; };
 		B6D9F8EA2A97C08F00B2B8AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D9F8E92A97C08F00B2B8AF /* Preview Assets.xcassets */; };
 		B6D9F8F52A97C11300B2B8AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D9F8F42A97C11300B2B8AF /* ContentView.swift */; };
-		B6D9F8FA2A97C12300B2B8AF /* Gyro in Resources */ = {isa = PBXBuildFile; fileRef = B6D9F8F62A97C12300B2B8AF /* Gyro */; };
 		B6D9F8FB2A97C12300B2B8AF /* CrownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D9F8F72A97C12300B2B8AF /* CrownView.swift */; };
 		B6D9F8FC2A97C12300B2B8AF /* TapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D9F8F82A97C12300B2B8AF /* TapView.swift */; };
 		B6D9F8FD2A97C12300B2B8AF /* GyroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D9F8F92A97C12300B2B8AF /* GyroView.swift */; };
+		B6D9F8FF2A97C17200B2B8AF /* Seesaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D9F8FE2A97C17200B2B8AF /* Seesaw.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,10 +49,10 @@
 		B6D9F8E62A97C08F00B2B8AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6D9F8E92A97C08F00B2B8AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B6D9F8F42A97C11300B2B8AF /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../Tingle/Tingle Watch App/ContentView.swift"; sourceTree = "<group>"; };
-		B6D9F8F62A97C12300B2B8AF /* Gyro */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Gyro; sourceTree = "<group>"; };
 		B6D9F8F72A97C12300B2B8AF /* CrownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrownView.swift; sourceTree = "<group>"; };
 		B6D9F8F82A97C12300B2B8AF /* TapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapView.swift; sourceTree = "<group>"; };
 		B6D9F8F92A97C12300B2B8AF /* GyroView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GyroView.swift; sourceTree = "<group>"; };
+		B6D9F8FE2A97C17200B2B8AF /* Seesaw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seesaw.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 				B6D9F8E22A97C08D00B2B8AF /* TingleNewApp.swift */,
 				B6D9F8F42A97C11300B2B8AF /* ContentView.swift */,
 				B6D9F8F72A97C12300B2B8AF /* CrownView.swift */,
-				B6D9F8F62A97C12300B2B8AF /* Gyro */,
+				B6D9F8FE2A97C17200B2B8AF /* Seesaw.swift */,
 				B6D9F8F92A97C12300B2B8AF /* GyroView.swift */,
 				B6D9F8F82A97C12300B2B8AF /* TapView.swift */,
 				B6D9F8E62A97C08F00B2B8AF /* Assets.xcassets */,
@@ -193,7 +193,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6D9F8EA2A97C08F00B2B8AF /* Preview Assets.xcassets in Resources */,
-				B6D9F8FA2A97C12300B2B8AF /* Gyro in Resources */,
 				B6D9F8E72A97C08F00B2B8AF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +207,7 @@
 				B6D9F8FC2A97C12300B2B8AF /* TapView.swift in Sources */,
 				B6D9F8FD2A97C12300B2B8AF /* GyroView.swift in Sources */,
 				B6D9F8E32A97C08D00B2B8AF /* TingleNewApp.swift in Sources */,
+				B6D9F8FF2A97C17200B2B8AF /* Seesaw.swift in Sources */,
 				B6D9F8FB2A97C12300B2B8AF /* CrownView.swift in Sources */,
 				B6D9F8F52A97C11300B2B8AF /* ContentView.swift in Sources */,
 			);
